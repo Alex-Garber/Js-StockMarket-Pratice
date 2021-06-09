@@ -6,25 +6,18 @@
     <li class="list-group-item"><strong>Previous Close:</strong>${{Stock.previousClose}}</li>
 
     <li class="list-group-item"><strong>Percent Change:</strong>{{Stock.changePercent}}%</li>
-    
+
     <li class="list-group-item"><strong>Market Cap:</strong>${{Stock.marketCap}}</li>
-    <li class="list-group-item"></li>
+
+    <li class="list-group-item"><strong>YTD Change:</strong>{{Stock.ytdChange}}%</li>
+
+    <li class="list-group-item"><strong>52wk High:</strong>${{Stock.week52High}}</li>
+
+    <li class="list-group-item"><strong>52wk Week Low:</strong>${{Stock.week52Low}}</li>
+
   </ul>
 </div>
 
-
-
-
-
-<h1> {{ Stock.companyName}} ({{Stock.symbol}}) </h1>
-<br/><br/>
-<strong>Latest Price: </strong>${{Stock.latestPrice}}<br/>
-<strong>Previous Close:</strong>${{Stock.previousClose}}<br/>
-<strong>Percent Change:</strong>{{Stock.changePercent}}%<br/>
-<strong>Market Cap:</strong>${{Stock.marketCap}}<br/>
-<strong>YTD Change:</strong>{{Stock.ytdChange}}%<br/>
-<strong>52wk High:</strong>${{Stock.week52High}}<br/>
-<strong>52wk Week Low:</strong>${{Stock.week52Low}}<br/>
 
 
 <!--
