@@ -46,7 +46,7 @@ app.get('/', function (req, res) {
            Stock: doneAPI
     });
 
-    });
+    }, "fb");
  
 });
 
